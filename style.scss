@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rajdhani:wght@500&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+
+.box-main {
+  display: flex;
+  margin: auto;
+  max-width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  width: 70%;
+  text-align: left;
+}
+
+.right {
+  width: 100%;
+  text-align: right;
+}
+
+.right img {
+  width: 200%;
+}
+
+.text-big {
+  width: 465px;
+  font-weight: bold;
+  font-size: 41px;
+  margin-bottom: 20px;
+}
+
+.text-small {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.price-text {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: linear-gradient(90deg, #f8814e 0%, #ff879d 100%);
+  border: none;
+  outline: none;
+  padding: 20px;
+  color: white;
+  font-family: rajdhani;
+  font-size: 21px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 1140px) {
+  .left {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .box-main {
+    flex-direction: column;
+  }
+  .right img {
+    width: 50vw;
+  }
+}

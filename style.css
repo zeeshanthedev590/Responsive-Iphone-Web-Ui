@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rajdhani:wght@500&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.home {
+  font-family: "Roboto", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  max-width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.left {
+  width: 70%;
+  text-align: left;
+}
+
+.right {
+  width: 100%;
+  text-align: right;
+}
+
+.right img {
+  width: 200%;
+}
+
+.text-big {
+  width: 465px;
+  font-weight: bold;
+  font-size: 41px;
+  margin-bottom: 20px;
+}
+
+.text-small {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.price-text {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: -webkit-gradient(linear, left top, right top, from(#f8814e), to(#ff879d));
+  background: linear-gradient(90deg, #f8814e 0%, #ff879d 100%);
+  border: none;
+  outline: none;
+  padding: 20px;
+  color: white;
+  font-family: rajdhani;
+  font-size: 21px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 1140px) {
+  .left {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .box-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .right img {
+    width: 50vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */
